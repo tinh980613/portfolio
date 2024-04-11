@@ -15,7 +15,7 @@ export default function Home({ ...props }) {
               />
             </div>
             <h1 className="text-4xl font-bold">{Bio.title}</h1>
-            <h2 className="text-2xl font-semibold">I'm a {Bio.roles}</h2>
+            <h2 className="text-2xl font-semibold">I am a {Bio.roles}</h2>
             <p className="pr-8">{Bio.description}</p>
             {Bio?.menu?.map((item, index) => {
               return (
