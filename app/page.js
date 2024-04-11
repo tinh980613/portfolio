@@ -77,6 +77,33 @@ export default function Home({ ...props }) {
             );
           })}
         </div>
+        <div className="flex flex-wrap gap-10 justify-center">
+          {Skill?.map((item, index) => {
+            return (
+              <div
+                key={index}
+                className="border border-[#844ce696] w-full lg:w-[45%] shadow-[0_0_12px_4px_rgba(133,_76,_230,_0.2)] px-8 pb-8 pt-4 rounded-3xl hover:translate-y-[-15px] hover:shadow-[0_12px_24px_12px_rgba(133,_76,_230,_0.2)] ease-in-out duration-300"
+              >
+                <h2 className="text-xl text-center font-semibold">
+                  {item.title}
+                </h2>
+                <div className="flex gap-3 flex-wrap justify-center mt-5">
+                  {item?.data.map((childItem, indexChild) => {
+                    return (
+                      <div
+                        key={indexChild}
+                        className="flex flex-row gap-2 border p-4 items-center rounded-xl"
+                      >
+                        <img src={childItem?.url} alt="img" className="w-4" />
+                        <p>{childItem?.title}</p>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </main>
   );
