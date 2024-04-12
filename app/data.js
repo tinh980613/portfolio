@@ -165,4 +165,108 @@ export const Skill = [
   },
 ];
 
-
+export const Project = [
+  {
+    image: "../hexagonBackground.jpg",
+    skill: [
+      {
+        titleSkill: "Elementor",
+      },
+      {
+        titleSkill: "Wordpress",
+      },
+      {
+        titleSkill: "Graphql",
+      },
+      {
+        titleSkill: "PHP",
+      },
+    ],
+    titleProject: "Hexagon",
+    description:
+      "It is an outsourced project that uses Elementor, WordPress, and PHP to create the interface and internal functions",
+    url: "https://hexagon.solidnsoft.com/",
+  },
+  {
+    image: "../hexagonBackground.jpg",
+    skill: [
+      {
+        titleSkill: "Elementor",
+      },
+      {
+        titleSkill: "Wordpress",
+      },
+      {
+        titleSkill: "Graphql",
+      },
+      {
+        titleSkill: "PHP",
+      },
+    ],
+    titleProject: "Hexagon",
+    description:
+      "It is an outsourced project that uses Elementor, WordPress, and PHP to create the interface and internal functions",
+    url: "https://hexagon.solidnsoft.com/",
+  },
+  {
+    image: "../hexagonBackground.jpg",
+    skill: [
+      {
+        titleSkill: "Elementor",
+      },
+      {
+        titleSkill: "Wordpress",
+      },
+      {
+        titleSkill: "Graphql",
+      },
+      {
+        titleSkill: "PHP",
+      },
+    ],
+    titleProject: "Hexagon",
+    description:
+      "It is an outsourced project that uses Elementor, WordPress, and PHP to create the interface and internal functions",
+    url: "https://hexagon.solidnsoft.com/",
+  },
+  {
+    image: "../hexagonBackground.jpg",
+    skill: [
+      {
+        titleSkill: "Elementor"
+      },
+      {
+        titleSkill: "Wordpress"
+      },
+      {
+        titleSkill: "Graphql"
+      },
+      {
+        titleSkill: "PHP"
+      },
+    ],
+    titleProject: "Hexagon",
+    description: "It is an outsourced project that uses Elementor, WordPress, and PHP to create the interface and internal functions",
+    url: "https://hexagon.solidnsoft.com/",
+  },
+  {
+    image: "../hexagonBackground.jpg",
+    skill: [
+      {
+        titleSkill: "Elementor"
+      },
+      {
+        titleSkill: "Wordpress"
+      },
+      {
+        titleSkill: "Graphql"
+      },
+      {
+        titleSkill: "PHP"
+      },
+    ],
+    titleProject: "Hexagon",
+    description: "It is an outsourced project that uses Elementor, WordPress, and PHP to create the interface and internal functions",
+    url: "https://hexagon.solidnsoft.com/",
+  },
+];
