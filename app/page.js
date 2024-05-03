@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import { Bio, Skill, Project } from "./data";
 
 import React from "react";
@@ -37,7 +37,9 @@ export default function Home({ ...props }) {
               {Bio?.social?.map((item, index) => {
                 return (
                   <a key={index} href={item?.url}>
-                    <div className="bg-white rounded-full hover:bg-[#33FFF0] duration-200 ease-in-out">{item.img}</div>
+                    <div className="bg-white rounded-full hover:bg-[#33FFF0] duration-200 ease-in-out">
+                      {item.img}
+                    </div>
                   </a>
                 );
               })}
@@ -127,15 +129,16 @@ export default function Home({ ...props }) {
                         );
                       })}
                     </div>
-                    <h2 className="text-xl text-center font-semibold mt-4 uppercase">
+                    <h2 className="text-xl text-center font-semibold mt-4 ">
                       {item?.titleProject}
                     </h2>
-                    <p className="font-normal text-sm text-slate-500 text-center">
+                    <p className="font-normal text-sm text-slate-500 text-center line-clamp-3">
                       {item?.description}
                     </p>
                     <div className="mt-10">
                       <a
                         href={item?.url}
+                        target="_blank"
                         className="text-slate-400 group-hover:text-white ease-in-out duration-200"
                       >
                         View Website

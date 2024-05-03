@@ -152,10 +152,13 @@ export const Skill = [
 
 export const Project = [
   {
-    image: "../hexagonBackground.jpg",
+    image: "../gleads.png",
     skill: [
       {
-        titleSkill: "Elementor",
+        titleSkill: "ReactJS",
+      },
+      {
+        titleSkill: "NextJS",
       },
       {
         titleSkill: "Wordpress",
@@ -166,11 +169,14 @@ export const Project = [
       {
         titleSkill: "PHP",
       },
+      {
+        titleSkill: "AWS",
+      },
     ],
-    titleProject: "Hexagon",
+    titleProject: "Gleads",
     description:
-      "It is an outsourced project that uses Elementor, WordPress, and PHP to create the interface and internal functions",
-    url: "https://hexagon.solidnsoft.com/",
+      "Use ReactJS, and NextJS to create the interface. Use GrapQL to fetch data for the interface. Optimize speed according to PageSpeed Insight standards",
+    url: "https://gleads.vn/",
   },
   {
     image: "../hexagonBackground.jpg",
