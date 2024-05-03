@@ -35,7 +35,6 @@ export default function Home({ ...props }) {
             })}
             <div className="flex flex-row gap-5 ml-5 ">
               {Bio?.social?.map((item, index) => {
-                console.log(item.img)
                 return (
                   <a key={index} href={item?.url}>
                     <div className="bg-white rounded-full hover:bg-[#33FFF0] duration-200 ease-in-out">{item.img}</div>
