@@ -1,3 +1,4 @@
+'use client';
 import { Bio, Skill, Project } from "./data";
 
 import React from "react";
@@ -13,7 +14,7 @@ export default function Home({ ...props }) {
               <img
                 src="../nose-cheek-mouth-life-hack-jaw-nose-thumbnail.jpg"
                 alt="avatar"
-                className="rounded-full w-60"
+                className="rounded-full w-40"
               />
             </div>
             <h1 className="text-4xl font-bold">{Bio.title}</h1>
@@ -32,12 +33,13 @@ export default function Home({ ...props }) {
                 </div>
               );
             })}
-            <div className="flex flex-row gap-5 ml-5">
+            <div className="flex flex-row gap-5 ml-5 ">
               {Bio?.social?.map((item, index) => {
+                console.log(item.img)
                 return (
-                  <div key={index}>
-                    <div className="bg-white rounded-full">{item.img}</div>
-                  </div>
+                  <a key={index} href={item?.url}>
+                    <div className="bg-white rounded-full hover:bg-[#33FFF0] duration-200 ease-in-out">{item.img}</div>
+                  </a>
                 );
               })}
             </div>
